@@ -1,0 +1,11 @@
+server :
+  port: 8082
+spring :
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: system
+    password: 123456
+    url: jdbc:oracle:thin:@localhost:1521:xe
+  loggin:
+    level:
+      org.springframework.web: debug
