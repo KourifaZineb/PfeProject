@@ -1,12 +1,18 @@
-server :
+server:
   port: 8083
-spring :
+
+spring:
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
     username: system
     password: 123456
     url: jdbc:oracle:thin:@localhost:1521:xe
+  jpa:
+    database: oracle
+    show-sql: true
+    hibernate:
+      ddl-auto: create
 
-  logging :
-    level :
-      ma.pfe : debug
+logging:
+  level:
+    ma.pfe: INFO

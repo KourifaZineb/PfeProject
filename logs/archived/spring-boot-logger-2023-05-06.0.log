@@ -1,0 +1,41 @@
+2023-05-06 02:19:19,844 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s515ms938µs).
+2023-05-06 14:25:30,794 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h6m17s827ms975µs300ns).
+2023-05-06 15:04:17,730 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s229ms283µs700ns).
+2023-05-06 15:07:20,384 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s637ms792µs700ns).
+2023-05-06 17:21:42,964 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m50s921ms182µs400ns).
+2023-05-06 17:48:11,448 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-4] GET "/swagger-ui/swagger-ui.css?v=3.0.0", parameters={masked}
+2023-05-06 17:48:11,444 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-8] GET "/swagger-ui/springfox.css?v=3.0.0", parameters={masked}
+2023-05-06 17:48:11,444 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-9] GET "/swagger-ui/swagger-ui-bundle.js?v=3.0.0", parameters={masked}
+2023-05-06 17:48:11,549 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-9] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2023-05-06 17:48:11,549 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-8] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2023-05-06 17:48:11,549 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-4] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2023-05-06 17:48:11,657 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-9] Completed 304 NOT_MODIFIED
+2023-05-06 17:48:11,657 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-8] Completed 304 NOT_MODIFIED
+2023-05-06 17:48:11,657 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-4] Completed 304 NOT_MODIFIED
+2023-05-06 17:48:12,074 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-3] GET "/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0", parameters={masked}
+2023-05-06 17:48:12,074 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-3] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2023-05-06 17:48:12,083 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-6] GET "/swagger-ui/springfox.js?v=3.0.0", parameters={masked}
+2023-05-06 17:48:12,092 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-6] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2023-05-06 17:48:12,115 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-3] Completed 304 NOT_MODIFIED
+2023-05-06 17:48:12,123 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-6] Completed 304 NOT_MODIFIED
+2023-05-06 17:48:13,014 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-2] GET "/swagger-resources/configuration/ui", parameters={}
+2023-05-06 17:48:13,022 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-2] Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-05-06 17:48:13,038 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-2] Using 'application/json', given [application/json] and supported [application/json]
+2023-05-06 17:48:13,063 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-2] Writing [springfox.documentation.swagger.web.UiConfiguration@2429d8f7]
+2023-05-06 17:48:13,086 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-2] Completed 200 OK
+2023-05-06 17:48:13,101 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-7] GET "/swagger-resources/configuration/security", parameters={}
+2023-05-06 17:48:13,101 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-7] Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-05-06 17:48:13,102 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-7] Using 'application/json', given [application/json] and supported [application/json]
+2023-05-06 17:48:13,104 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-7] Writing [springfox.documentation.swagger.web.SecurityConfiguration@30e066ec]
+2023-05-06 17:48:13,107 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-7] Completed 200 OK
+2023-05-06 17:48:13,120 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-10] GET "/swagger-resources", parameters={}
+2023-05-06 17:48:13,121 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-10] Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-05-06 17:48:13,124 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-10] Using 'application/json', given [application/json] and supported [application/json]
+2023-05-06 17:48:13,124 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-10] Writing [[springfox.documentation.swagger.web.SwaggerResource@7f8bc024]]
+2023-05-06 17:48:13,132 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-10] Completed 200 OK
+2023-05-06 17:48:13,312 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-1] GET "/v2/api-docs", parameters={}
+2023-05-06 17:48:13,312 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-1] Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2023-05-06 17:48:13,377 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-1] Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2023-05-06 17:48:13,377 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-1] Writing [springfox.documentation.spring.web.json.Json@670c24a1]
+2023-05-06 17:48:13,377 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Completed 200 OK
+2023-05-06 19:10:42,450 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m57s845ms2µs).
