@@ -4,8 +4,6 @@ package ma.pfe.repositories;
 import ma.pfe.entities.StudentEntity;
 import ma.pfe.entities.StudentId;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository("repo1")
